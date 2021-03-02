@@ -10,7 +10,7 @@ class QiwiBillPaymentsException(Exception):
 
 class QiwiBillPaymentsAPI:
     API_URL = 'https://api.qiwi.com/partner/bill/v1/bills/'
-    CLIENT_NAME = 'python-sdk'
+    CLIENT_NAME = 'python_sdk'
     CLIENT_VERSION = '0.1'
     def __init__(self, public_key, secret_key):
         """
